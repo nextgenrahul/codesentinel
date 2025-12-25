@@ -1,1 +1,11 @@
 https://tweakcn.com/editor/theme  -> this is a website where you can customize and download themes for the TweakCN text editor.
+
+
+Authentication : 
+
+1. Install better-auth
+2. Setup auth and auth client
+3. Get github client id and secret from github developer settings
+4. Create login page UI
+5. Create logout functionality
+
