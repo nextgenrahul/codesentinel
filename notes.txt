@@ -9,3 +9,9 @@ Authentication :
 4. Create login page UI
 5. Create logout functionality
 
+Dashboard:
+
+1.Setup Redirect logic to Dashboard
+2. Add Dark and Light mode toggle
+3. Create Sidebar with navigation links
+4. Create Dashboard routes

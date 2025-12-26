@@ -11,7 +11,7 @@ export default function LoginPage() {
   const handleGithubLogin = async () => {
     setIsLoading(true);
     setError(null);
-    try {
+    try { 
       await signIn.social({
         provider: "github", 
       });
