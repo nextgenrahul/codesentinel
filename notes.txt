@@ -15,3 +15,15 @@ Dashboard:
 2. Add Dark and Light mode toggle
 3. Create Sidebar with navigation links
 4. Create Dashboard routes
+
+
+Dashboard Home Page :
+
+bun install octokit 
+
+bun add @tanstack/react-query
+
+1. Setup Tanstack query for fetching user data
+2. Install octokit for github api calls 
+3. Create "FetchUserContributions" function to get user contributions and GithubToken 
+4. Create "GetControbutionStats" , GetMonthlyActivity
