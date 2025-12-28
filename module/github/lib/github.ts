@@ -2,9 +2,6 @@ import { Octokit } from "octokit";
 import { auth } from "@/lib/auth";
 import prisma from "@/lib/db";
 import { headers } from "next/headers";
-import { string } from "zod";
-
-
 
 /* 
 *Getting the github Access Token
