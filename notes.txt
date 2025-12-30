@@ -27,3 +27,18 @@ bun add @tanstack/react-query
 2. Install octokit for github api calls 
 3. Create "FetchUserContributions" function to get user contributions and GithubToken 
 4. Create "GetControbutionStats" , GetMonthlyActivity
+-------> What we have done so far : 
+        1. Authentication check
+        2. Gets your github username
+        3. Fetches your commit 
+           1. Gets your github calendar data
+           2. Count How many commit you have made each month
+        4. Fetches your code review
+           1. Grouping by six months
+        5. Fetches Your prs
+              1. Grouping by six months
+              2. Count how many prs you have made each month
+        6. Organizes everything in a nice way to show on the dashboard
+           1. Data Structure is ready to be used in the UI
+           2. For each month -> 
+

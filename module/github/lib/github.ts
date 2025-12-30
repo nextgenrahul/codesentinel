@@ -40,22 +40,21 @@ export async function fetchUserContribution(
 
     const query = `
         query ($username: String!) {
-        user(login: $username) {
-            contributionCollection {
-            contributionCalendar {
+            user(login: $username) {
+            contributionsCollection: contributionCollection {
+                contributionCalendar {
                 totalContributions
                 weeks {
-                contributionDays {
-                    contributionCount
+                    contributionDays {
                     date
-                    color
+                    contributionCount
+                    }
                 }
                 }
             }
             }
         }
-        }
-    `;
+        `;
 
     interface ContributionDay {
         contributionCount: number;
