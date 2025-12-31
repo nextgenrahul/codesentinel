@@ -76,7 +76,7 @@ export async function fetchUserContribution(
             };
         };
     }
-
+ 
     try {
         const response = await octokit.graphql<ContributionResponse>(query, {
             username,

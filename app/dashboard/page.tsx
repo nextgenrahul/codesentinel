@@ -16,7 +16,7 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
+  ResponsiveContainer, 
 } from "recharts";
 import {
   GitCommit,
